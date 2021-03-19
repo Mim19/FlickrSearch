@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Flickr search</title>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="search">
+                <input type="text" placeholder="Photo" id="search-inp" >
+                <button class="search-btn">Search</button>
+            </div>
+            <div class="container-section">
+                <div id="img-section" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="baskets" ondragover="allowDrop(event)">
+                    <div id="dog">Dog</div>
+                    <div id="cat">Cat</div>
+                </div>
+                <div id="result-section" ondrop="drop(event)" ondragover="allowDrop(event)" >
+            </div>        
+        </div>
+    </div>
+    <script src="/javascript/javascript.js"></script>    
+</body>
+</html>
+
