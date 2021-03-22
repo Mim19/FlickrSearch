@@ -15,12 +15,12 @@
                 <button class="search-btn">Search</button>
             </div>
             <div class="container-section">
-                <div id="img-section" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div id="img-section" ondrop="dropDog(event)" ondragover="allowDrop(event)"></div>
                 <div class="baskets" ondragover="allowDrop(event)">
-                    <div id="dog">Dog</div>
-                    <div id="cat">Cat</div>
+                    <div id="dog" ondrop="dropDog(event)" ondragover="allowDrop(event)">Dog</div>
+                    <div id="cat" ondrop="dropCat(event)" ondragover="allowDrop(event)">Cat</div>
                 </div>
-                <div id="result-section" ondrop="drop(event)" ondragover="allowDrop(event)" >
+                <div id="result-section">
             </div>        
         </div>
     </div>
